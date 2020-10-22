@@ -76,7 +76,7 @@ public class Task3x3Controller : MonoBehaviour
                 MassageBox.ShowMassage(this);
             }
         }
-        transform.Find("Level").GetComponent<Text>().text = "Level " + level.ToString();
+        transform.Find("Level").GetComponent<Text>().text = "Task " + level.ToString();
     }
     public string GetFieldValue(int row, int col)
     {
